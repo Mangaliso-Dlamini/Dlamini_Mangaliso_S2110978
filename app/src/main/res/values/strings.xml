@@ -1,0 +1,10 @@
+<resources>
+    <!--Mangaliso Linda Dlamini S2110978 -->
+    <string name="app_name">GCU Weather App</string>
+    <string name="student_id">S2110978</string>
+    <string name="student_name">Mangaliso Linda Dlamini</string>
+    <string name="welcomeText">"Welcome to our weather app! Stay ahead of the elements with up-to-date forecasts and real-time weather conditions. Swipe Left or Right on the latest observation page to find your campus. Let's make every forecast a breeze!"</string>
+    <string-array name="menu_items">
+        <item>Settings</item>
+    </string-array>
+</resources>

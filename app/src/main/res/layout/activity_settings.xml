@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Mangaliso Linda Dlamini S2110978 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/Background"
+    >
+
+    <TextView
+        android:id="@+id/textViewUpdateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter update time (HH:MM):"
+        android:textColor="@color/TextColor"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextUpdateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUpdateTime"
+        android:layout_marginTop="8dp"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:backgroundTint="@color/cardBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUpdateTime"
+        android:layout_marginTop="16dp"
+        android:text="Save"/>
+
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="180dp"
+        android:text="S2110978"
+        android:textColor="@color/TextColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/buttonSave"
+        />
+
+</RelativeLayout>
+
